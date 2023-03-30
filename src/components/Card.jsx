@@ -6,7 +6,7 @@ const Card = ({ cardInfo }) => {
   <>
     {/* mobile design */}
     <div className='md:hidden'>
-      <img src="/assets/bg-main-mobile.png" alt="bgimg" className='w-full rounded-t-2xl'/>
+      <img src="assets/bg-main-mobile.png" alt="bgimg" className='w-full rounded-t-2xl'/>
       <motion.div className='w-[350px] h-[220px] absolute top-8 right-4 bg-bgcardback bg-contain bg-no-repeat'
         initial={{x: 200}}
         animate={{x: 0}}
